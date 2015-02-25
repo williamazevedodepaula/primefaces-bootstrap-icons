@@ -24,6 +24,10 @@ Botão com ícone à direita
 
     <p:commandButton value="Botão" icon="glyphicon glyphicon-user" iconPos="right"/>
 
+menuItem com ícone à esquerda
+
+    <p:menuitem value="Configurações" icon="glyphicon glyphicon-cog"/>
+
 Ícone apenas:
 
     <span class="glyphicon glyphicon-user"/>
