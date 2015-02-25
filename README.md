@@ -23,3 +23,7 @@ ou
 Botão com ícone à direita
 
     <p:commandButton value="Botão" icon="glyphicon glyphicon-user" iconPos="right"/>
+
+Ícone apenas:
+
+    <span class="glyphicon glyphicon-user"/>
