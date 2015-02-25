@@ -10,7 +10,7 @@
 
 Botão com ícone, apenas:
 
-    <p:commandButton icon="glyphicon glyphicon-trash" update=":form:pedDelDialog"/>
+    <p:commandButton icon="glyphicon glyphicon-trash"/>
 
 Botão com ícone à esquerda:
 
