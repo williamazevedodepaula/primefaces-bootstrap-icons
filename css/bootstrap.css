@@ -814,12 +814,14 @@
     display: inherit;
     position: absolute;
     top: 50%;
-    margin-top: -0.5em;
+    margin-top: -0.6em;
    
     margin-left: 0.9em;
     font-size: 0.8em;
     font-family: 'Glyphicons Halflings';
 }
+
+/* glyphicons em botões */
 
 .glyphicon .ui-button-text{
     display: inherit;  
@@ -841,3 +843,17 @@
     margin-left: -0.5em;
     left: 50%;
 }
+
+/* glyphicons em menuitem */
+
+.ui-menuitem-icon.glyphicon{
+    background-image: none;
+    text-indent: 0;
+    overflow: visible;
+    margin-left: 0.5em;
+
+}
+.ui-menuitem-icon.glyphicon::before{
+    margin-left: -0.5em;
+}
+
